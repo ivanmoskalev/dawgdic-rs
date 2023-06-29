@@ -1,0 +1,15 @@
+[package]
+name = "dawgdic"
+version = "0.0.1"
+authors = ["Ivan Moskalev <ivan.moskalev@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+byteorder = "*"
+
+[dev-dependencies]
+criterion = "0.3"
+
+[[bench]]
+name = "basic"
+harness = false
