@@ -1,11 +1,17 @@
 [package]
 name = "dawgdic"
-version = "0.0.1"
+version = "0.1.1"
 authors = ["Ivan Moskalev <ivan.moskalev@gmail.com>"]
 edition = "2021"
+license-file = "LICENSE"
+description = "Port of DAFSA in safe Rust (original implementation courtesy to Susumu Yata)"
+repository = "https://github.com/ivanmoskalev/dawgdic-rs"
+keywords = ["dawg", "trie", "dictionary", "data structure"]
+categories = ["data-structures", "algorithms"]
+readme = "README.md"
 
 [dependencies]
-byteorder = "*"
+byteorder = "1.4"
 
 [dev-dependencies]
 criterion = "0.3"
